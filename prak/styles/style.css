@@ -1,0 +1,512 @@
+
+body{
+margin-right: 15%;
+margin-left: 15%;
+background-color: #F1F1F1;
+}
+
+a{
+text-decoration: none;
+}
+
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+header img{
+width: 300px;
+}
+
+header b{
+color: #ffb833;
+}
+
+.head-div{
+width: 500px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nav-contain{
+margin-top: 3%;
+border-radius: 20px;
+width: 100%;
+height: 70px;
+background-color: white;
+display: flex;
+align-items: center;
+}
+
+.navigation-text{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 70%;
+}
+
+.btn-tour{
+width: 8%;
+height: 50px;
+background: none;
+border-radius: 20px;
+border: #ffb833 1px solid;
+margin-right: 5%;
+margin-left: 3%;
+color: #ffb833;
+}
+
+.btn-contacts{
+width: 10%;
+height: 50px;
+background: none;
+border-radius: 20px;
+border: #ffb833 1px solid;
+color: #ffb833;
+}
+ 
+.btn-tour:hover{
+color: white;
+transition: 1s;
+background-color:#ffb833;
+cursor: pointer;
+}
+
+.btn-contacts:hover{
+color: white;
+transition: 1s;
+background-color:#ffb833; 
+cursor: pointer;
+}
+
+.promotions-1{
+    width: 525px;
+display: grid;
+flex-direction: column;
+}
+
+.prom-img-1{
+width: 520px;
+margin-bottom: 2%;
+margin-right: 0%;
+}
+
+.promotions-container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-left: 5%;
+}
+
+.prom-img-2{
+width: 515px;
+}
+
+.text-onas{
+text-align: justify;
+}
+
+.service-container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.service{
+display: grid;
+grid-template-rows: 1fr 1fr;
+background-color: white;
+border-radius: 25px;
+width: 655px;
+margin-bottom: 2%;
+}
+
+.service img{
+width: 655px;
+}
+
+.service-text{
+padding: 15px;
+}
+
+.service-text b {
+    color: #ffb833;
+    font-size: 20px;
+}
+
+.advantages-contain{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.advantages{
+font-size: 20px;
+background-color: white;
+border-radius: 25px; 
+margin: 10px;
+padding: 10px;
+}
+
+.hotels-container{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hotel{
+display: grid;
+grid-template-rows: 1fr 1fr;
+background-color: white;
+border-radius: 25px;
+width: 420px;
+margin-bottom: 4%;
+}
+
+.hot{
+width: 420px;
+}
+
+.hotel-text{
+padding: 45px;
+}
+
+.hotel-text b{
+font-size: 20px;
+}
+
+.rate{
+height: 25px;
+}
+
+.btn-hotel{
+width:40%;
+height: 50px;
+background: none;
+border-radius: 15px;
+border: #ffb833 1px solid;
+color: #ffb833;
+}
+
+.btn-hotel:hover{
+    color: white;
+    transition: 1s;
+    background-color:#ffb833; 
+    cursor: pointer;
+}
+
+.poisk-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+border-radius: 25px;
+background-color: white;
+padding: 25px;
+width: 100%;
+}
+
+.poisk{
+border-right: 1px solid rgb(194, 190, 190);
+margin-right: 15px;
+}
+
+select{
+border: none;
+background:none;
+}
+
+.poisk input{
+    border: none;
+    background:none;
+}
+
+.search-btn{
+    width: 70%;
+    height: 50px;
+    background: none;
+    border-radius: 20px;
+    border: #ffb833 1px solid;
+    color: #ffb833;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+.search-btn:hover{
+    color: white;
+    transition: 1s;
+    background-color:#ffb833; 
+    cursor: pointer;
+}
+
+.btn-to-header{
+text-align: center;
+width: 50px;
+position: fixed;
+border-radius: 50%;
+left: 97%;
+top: 94%;
+background-color:#ffb833;
+font-size: 35px
+}
+
+.btn-to-header:hover{
+transition: 1s;
+background-color: white;
+border: 1px solid;
+}
+
+
+.contact-1{
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.text-contact{
+margin-top: 2%;
+margin-left: 10%;
+font-size: 18px;
+border-bottom: 1px ;
+}
+
+.contact-1 b{
+font-size: 24px;
+}
+
+.contact-1 div{
+  display: flex;
+  align-items: center;
+}
+
+.contact-contain{
+background-color: white;
+padding: 30px;
+width: 100%;
+border-radius: 25px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.text-contact-1{
+    margin-top: 2%;
+    margin-left: 6%;
+    font-size: 18px;
+    border-bottom: 1px ;
+    }
+.text-contact-2{
+    margin-top: 2%;
+    margin-left: 9%;
+    font-size: 18px;
+    border-bottom: 1px ;
+}
+.text-contact-3{
+    margin-top: 2%;
+    margin-left: 8%;
+    font-size: 18px;
+    border-bottom: 1px ;
+}
+
+.btn-contact{
+    width: 70%;
+    height: 50px;
+    background: none;
+    border-radius: 20px;
+    border: #ffb833 1px solid;
+    color: #ffb833;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+.btn-contact:hover{
+    color: white;
+    transition: 1s;
+    background-color:#ffb833; 
+    cursor: pointer;
+}
+
+footer{
+font-size: 20px;
+padding: 40px;
+margin-top: 5%;
+height: 300px;
+width: 100%;
+border-radius: 25px;
+background-image:url(../assets/media/footer.png);
+background-size: cover;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+color: white;
+}
+
+footer b{
+color:#ffb833;
+}
+
+footer img{
+    width: 35px;
+    height: 35px;
+}
+
+.socnetw{
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+margin-left: 90%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Arial:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{  font-family: "Arial", sans-serif;}
+
+@media screen and (max-width:768px){
+h1{
+font-size: 16px;
+}
+
+body{
+margin-right: 0%;
+margin-left: 0%;
+width: 100%;
+}
+header{
+width: 100%;
+font-size: 12px;
+}
+
+header img{
+width: 150px;
+}
+
+.head-div{
+width: 270px;
+}
+
+.nav-contain{
+font-size: 10px;
+height: 50px;
+}
+.btn-tour{
+height: 30px;
+width: 50px;
+font-size: 10px;
+margin-left: 0%;
+}
+
+.btn-contacts{
+margin-left: 0%;
+height: 30px;
+width: 50px;
+font-size: 8px;
+}
+
+.prom-img-1{
+width: 170px;
+height: 100px;
+}
+.prom-img-2{
+margin-left: 40%;
+width: 200px;
+height: 205px;
+}
+
+.promotions-1{
+width: 100px;
+height: 50px;
+}
+.promotions-container{
+    height: 220px;
+    width: 160px;
+    margin-left: 0;
+}
+.text-onas{
+font-size: 12px;
+}
+
+.service{
+font-size: 10px;
+width: 200px;
+height: 220px;
+}
+.service-text b{
+font-size: 12px;
+}
+
+.service img{
+width: 200px;
+height: 80px;
+}
+.advantages{
+font-size: 10px;
+}
+
+.advantages-contain{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.advantages img{
+width: 60px;
+height: 50px;
+}
+
+.hotel-text{
+padding: 10px;
+}
+.hot{
+width: 390px;
+}
+.hotel{
+width: 390px;
+}
+.hotels-container{
+display: grid;
+grid-template-columns: 1fr ;
+}
+
+.poisk-container{
+width: 360px;
+padding: 15px;
+display: grid;
+grid-template-columns: 1fr 1fr ;
+}
+.poisk{
+border-bottom: 1px solid rgb(194, 190, 190);
+}
+
+.text-contact-1{
+font-size:10px;
+}
+
+.text-contact{
+    font-size:10px;
+}
+.text-contact-2{
+    font-size:10px;
+}
+.text-contact-3{
+    font-size:10px;
+}
+
+.contact-contain img{
+width: 200px;
+height: 200px;
+}
+.contact-contain{
+padding: 5px;
+}
+
+.contact-contain b{
+    font-size: 12px;
+}
+
+footer{
+padding: 10px;
+width: 390px;
+height: 250px;
+}
+.text-footer-1{
+font-size: 10px;
+}
+.text-footer-2{
+font-size: 10px;
+}
+.socnetw{
+margin-left: 50%;
+}
+.btn-to-header{
+top: 87%;
+left: 80%;
+}
+}
